@@ -5,6 +5,9 @@
 
 body{
 	font-family: 'overpass',arial,sans-serif;
+	/*width:800px;*/
+	margin: auto;
+	min-width: 300px;
 }
 
 .mini_pic{

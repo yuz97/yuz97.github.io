@@ -1,0 +1,8 @@
+1. git config user.name " yuz97"
+2. git config  user.email " nama email"
+3.  git init
+4. git add * 
+5. git commit - m "masukkan catatan"
+6. git pull origin master
+7. git fetch
+8. git push -f -u origin master 
