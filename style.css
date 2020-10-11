@@ -1,0 +1,19 @@
+@font-face{
+	font-family: 'overpass';
+	src: url('overpass-regular.otf') format('otf');
+}
+
+body{
+	font-family: 'overpass',arial,sans-serif;
+}
+
+.mini_pic{
+	width: 200px;
+	height: 200px;
+}
+
+a {
+	color: black;
+}
+
+
