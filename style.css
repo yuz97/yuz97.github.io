@@ -16,7 +16,7 @@ a {
 @media(min-width:300px)and (orientation:potrait){
   body{
 	font-family: 'overpass',arial,sans-serif;
-	margin: auto;
+	/*margin: auto;*/
 	
    }
 }
