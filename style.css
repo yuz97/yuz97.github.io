@@ -3,11 +3,7 @@
 	src: url('overpass-regular.otf') format('otf');
 }
 
-body{
-	font-family: 'overpass',arial,sans-serif;
-	margin: auto;
-	
-}
+
 
 .mini_pic{
 	width: 160px;
@@ -16,6 +12,13 @@ body{
 
 a {
 	color: black;
+}
+@media(min-width:300px)and (orientation:potrait){
+  body{
+	font-family: 'overpass',arial,sans-serif;
+	margin: auto;
+	
+   }
 }
 
 
