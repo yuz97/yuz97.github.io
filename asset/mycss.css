@@ -2,7 +2,7 @@
 
 html,
 body {
-   font-family: 'Lato', sans-serif;
+   font-family: 'Nunito', sans-serif;
 }
 
 /* html {
@@ -30,6 +30,8 @@ ul>li {
 
 }
 
+
+
 .active {
 
    margin: auto;
@@ -55,7 +57,6 @@ ul>li {
 
 #typed {
    border-bottom: 2px solid #ffffff;
-
 }
 
 .type-cursor {
