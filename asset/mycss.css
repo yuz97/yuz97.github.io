@@ -2,90 +2,88 @@
 
 html,
 body {
-   font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 /* html {
    scroll-behavior: smooth;
 } */
 .contact {
-   width: 20px;
-   height: 20px;
-   margin: 10px 10px;
+  width: 20px;
+  height: 20px;
+  margin: 10px 10px;
 }
 
-ul>li {
-   margin-right: 30px;
+ul > li {
+  margin-right: 30px;
 }
 
 .navbar-brand {
-   margin: 0 20px;
+  margin: 0 20px;
 }
 
 .nav-link:hover {
-
-   margin: auto;
-   padding-bottom: 5px;
-   margin-bottom: -8px;
-
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
 }
 
-
-
 .active {
-
-   margin: auto;
-   width: auto;
-   padding-bottom: 5px;
-   margin-bottom: -8px;
+  margin: auto;
+  width: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
 }
 
 .hero {
-   width: 350px;
-   height: 300px;
+  width: 350px;
+  height: 300px;
 }
 
 .frontend {
-   width: 90px;
-   height: 90px;
-
+  width: 90px;
+  height: 90px;
 }
 
 .card-front {
-   border-radius: 10px;
+  border-radius: 10px;
 }
 
 #typed {
-   border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
 
 .type-cursor {
-   opacity: 1;
-   animation: blink 0.7s infinite;
+  opacity: 1;
+  animation: blink 0.7s infinite;
 }
 
 @keyframes blink {
-   0% {
-      opacity: 1;
-   }
+  0% {
+    opacity: 1;
+  }
 
-   50% {
-      opacity: 0;
-   }
+  50% {
+    opacity: 0;
+  }
 
-   100% {
-      opacity: 1;
-   }
+  100% {
+    opacity: 1;
+  }
 }
 
+#malv {
+  width: 300px;
+  height: 360px;
+}
 
 .card-front {
-   opacity: 0;
-   transition: 0.7s;
-   transform: translate(0, -40px);
+  opacity: 0;
+  transition: 0.7s;
+  transform: translate(0, -40px);
 }
 
 .card-front.muncul {
-   opacity: 1;
-   transform: translate(0, 0);
+  opacity: 1;
+  transform: translate(0, 0);
 }
